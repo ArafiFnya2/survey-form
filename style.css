@@ -15,7 +15,7 @@ body {
 
 main {
     display: flex;
-    background-image: url("/AI\ -\ Copy.png");
+    background-image: url("./profile.png");
     height: 150vh;
     background-size: cover;
 }
