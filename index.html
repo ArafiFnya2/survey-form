@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>survei</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Sigma Survey Form</h1>
+      <p>Apakah Kamu Sigma?</p>
+    </header>
+
+    <main>
+      <form>
+        <!--input nama-->
+        <div class="form-group">
+          <label for="Name">Nama</label>
+          <input type="text" name="Nama" placeholder="Andrew Tate" required />
+        </div>
+
+        <!--input email-->
+        <div class="form-group">
+          <label for="email">email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="AkuSigma@sigma.com"
+            required
+          />
+        </div>
+
+        <!--pilih-->
+        <div class="form-group">
+          <p>Pilih Tipe Sigma Anda?</p>
+          <select name="minat" id="minat">
+            <option disabled selected value>pilih</option>
+            <option value="Mewing">Mewing</option>
+            <option value="Gyatt">Gyatt</option>
+            <option value="Rizzler">Rizzler</option>
+            <option value="Alpha">Alpha</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Are you able to rizz up 10/10 Gyatt</p>
+          <label>
+            <input type="radio" name="rizzTest" class="input-radio" checked>
+            Yessir
+          </label>
+          <label>
+            <input type="radio" name="rizzTest" class="input-radio" checked>
+            Nuh uh
+          </label>
+          <label>
+            <input type="radio" name="rizzTest" class="input-radio" checked>
+            Maybe
+          </label>
+          
+          <div class="form-group">
+            <p>Meme Yang Lu banget</p>
+            <select name="minat" id="minat">
+              <option disabled selected value>pilih</option>
+              <option value="Mewing">Ryan Gosling</option>
+              <option value="Gyatt">Chopped Chin</option>
+              <option value="Rizzler">Quandel Dingle</option>
+              <option value="Alpha">Damn Daniel</option>
+            </select>
+          </div>
+
+          <p>Pilih Sigma Favorit Kamu</p>
+          <label>
+            <input type="checkbox" name="Sigma" value="bate">
+            Patrick Bateman
+          </label>
+          <label>
+            <input type="checkbox" name="Sigma" value="ryan">
+            Ryan Gosling
+          </label>
+          <label>
+            <input type="checkbox" name="Sigma" value="Ninja">
+            Ninja
+          </label>
+          <label>
+            <input type="checkbox" name="Sigma" value="Eye">
+            Eye Of Rah
+          </label>
+          
+          <p>Kenapa Kamu Sigma??</p>
+          <textarea id="jelaskan" placeholder="Sigma Boy">
+          </textarea>
+
+        <button type="button">kirim</button>
+      </form>
+    </main>
+  </body>
+</html>
