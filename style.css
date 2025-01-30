@@ -15,8 +15,7 @@ body {
 
 main {
     display: flex;
-    background-image: url("BACKGROUND.JPG");
-    background-size: 1300px;
+    background-color: azure;
     height: 150vh;  
 }
 
