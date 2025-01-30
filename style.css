@@ -15,7 +15,7 @@ body {
 
 main {
     display: flex;
-    background-image: url("./BACKGROUND.JPG");
+    background-image: url("BACKGROUND.JPG");
     background-size: position;
     height: 150vh;  
 }
